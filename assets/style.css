@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: rgb(139, 139, 242);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    display: inline;
+}
+
+
