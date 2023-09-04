@@ -8,8 +8,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.btn {
-    display: inline;
+
+
+#forecast {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    scrollbar-width: thin; 
+    white-space: nowrap; 
 }
 
-
+.forecast-entry {
+    flex: 0 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
